@@ -37,3 +37,5 @@ para ejecutar el servidor:
 php artisan serve
 ```
 
+Se ebe generar un usuario para poder trabajar, ya que los endpoints se autorizan mediante un token de usuario
+
