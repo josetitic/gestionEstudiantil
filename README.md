@@ -7,3 +7,33 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+# Gestión Estudiantil
+Este paquete proporciona una forma simple de administrar cursos y estudiantes
+
+# Instalación
+Ejecuta el siguiente comando para instalar el paquete:
+```bash
+
+go get -u github.com/josetitic/gestionEstudiantil.git
+
+```
+Crea en local la base de datos: student_management
+
+```bash
+CREATE DATABASE student_management;
+```
+ejecuta el comando composer:
+```bash
+composer install
+
+php artisan migrate
+
+```
+# Uso
+Ejm:
+para ejecutar el servidor:
+```bash
+php artisan serve
+```
+
